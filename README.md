@@ -1,27 +1,42 @@
-# Stitches Example
+# 🍃 OCR - technical test
 
-This example shows how to use the [Stitches CSS-in-JS Library](https://github.com/modulz/stitches).
+This project automates the extraction of invoices (images) and formatted in a structured Data that provides useful information to the training model.
 
-## Deploy your own
+---
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-stitches)
+## Stages
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-stitches&project-name=with-stitches&repository-name=with-stitches)
+- [ ] Exploration phase
+  - [ ] Breaking down the requirements.
+  - [ ] Modeling the objects to make use of (UML).
+  - [ ] Guidelines to setting up the working environment.
+- [ ] API Verify integration Next.js with python scripting.
 
-## How to use
+### Dependencies
 
-Execute [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+- Created with `npx create-next-app@latest`
+- 
 
-```bash
-npx create-next-app --example with-stitches with-stitches-app
+---
+
+### How to contribute
+
+To use this project run the commands:
+
+```
+    npm install / yarn install
 ```
 
-```bash
-yarn create next-app --example with-stitches with-stitches-app
-```
+Want to contribute? Great! ✨
 
-```bash
-pnpm create next-app --example with-stitches with-stitches-app
-```
+To fix a bug or enhance an existing module, follow these steps:
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+- Clone / Fork the repo.
+- Create a new branch `git checkout -b improve-feature`
+- Make the appropriate changes in the files.
+- Commit your changes `git commit -am 'Improve feature`
+- Push to the branch `git push origin improve-feature`
+- Create a Pull Request
+
+## Feedback
+If you have any feedback or suggestion, please reach out to mr.santiago.cano@gmail.com
