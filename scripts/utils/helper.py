@@ -24,10 +24,6 @@ class ClientHandler(Client):
     def save_json_file(self) -> dict:
         """Make a request to process_document if save_path doesn't exist.
         And it saves a dictionary into the data folder as a json format.
-
-        Args:
-            store_json (dict): JSON dictionary generated from the Veryfi Client response.
-            json_file_path (str, optional): Path directory including the name file. Defaults to './data/tmp/response.json'.
         """
         if not (os.path.exists(self.save_path)):
             response = self.client.process_document(self.docs_to_process)

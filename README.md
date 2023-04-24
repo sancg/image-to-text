@@ -1,23 +1,54 @@
 # 🍃 OCR - technical test
 
-This project automates the extraction of invoices (images) and formatted in a structured Data that provides useful information to the training model.
+This project automates the extraction of invoices (images) and formatted in a structured Data using python.
 
 ---
 
-## Stages
+## Usage 🧑‍💻
 
-- [ ] Exploration phase
-  - [ ] Breaking down the requirements.
-  - [ ] Modeling the objects to make use of (UML).
-  - [ ] Guidelines to setting up the working environment.
-- [ ] API Verify integration Next.js with python scripting.
+The core test using python is inside the folder scripts:
+
+### Requirements:
+
+To use the python scripts you'll need to setting up a virtual environment to install the required dependencies:
+
+```shell
+python -m venv root_directory
+# Activate the venv to install the dependencies
+python -m pip install -r requirements.txt
+```
+
+Create a **_.env_** file within the **scripts** folder with the corresponding VARIABLES for the veryfi API. Otherwise, the code won't work:
+
+- CLIENT_ID
+- CLIENT_SECRET
+- USERNAME
+- API_KEY
+
+## Stage 🌱
+
+- [x] Exploration phase
+  - [x] Breaking down the requirements.
+  - [x] Modeling the objects to make use of (UML).
+- [ ] Creating the obj to get all data needed:
+  - [ ] vendor_name
+  - [ ] bill_to_address
+  - [ ] ship_to_name
+  - [ ] ship_to_address
+  - [ ] line_items [dict]
+    - Quantity
+    - Description
+    - Price
+- [ ] [Additional] API Verify integration Next.js with python scripting.
 
 ### Dependencies
 
 - Created with `npx create-next-app@latest`
-- 
-
----
+- ```
+    veryfi
+    autopep8
+    python-dotenv
+  ```
 
 ### How to contribute
 
@@ -39,4 +70,5 @@ To fix a bug or enhance an existing module, follow these steps:
 - Create a Pull Request
 
 ## Feedback
+
 If you have any feedback or suggestion, please reach out to mr.santiago.cano@gmail.com

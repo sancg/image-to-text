@@ -1,4 +1,5 @@
-import json
+import os
+import re 
 
 from utils.helper import ClientHandler
 
@@ -7,4 +8,6 @@ save_path = './scripts/data/response.json'
 cl = ClientHandler(file_path, save_path)
 json_response = cl.read_json_file()
 
-print(json_response['ocr_text'])
+raw_text = json_response['ocr_text']
+
+print(raw_text)
