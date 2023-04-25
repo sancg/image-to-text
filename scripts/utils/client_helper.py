@@ -13,17 +13,22 @@ username = os.getenv('USERNAME')
 api_key = os.getenv('API_KEY')
 
 
-class ClientHandler(Client):
+class ClientHandler():
+    """Class Helper to store and retrieve Dictionaries as JSON format after been processed by the veryfi API
+
+    Args:
+        docs_to_process (str): path were the required documents are located.
+        save_path (str): path to store the process_documents
+    """
     def __init__(self, docs_to_process: str, save_path: str):
-        # super().__init__()
         self.client = Client(client_id, client_secret, username, api_key)
         self.save_path = save_path
         self.docs_to_process = docs_to_process
-        self.save_json_file()
+        
 
     def save_json_file(self) -> dict:
-        """Make a request to process_document if save_path doesn't exist.
-        And it saves a dictionary into the data folder as a json format.
+        """Make a request to process_documents if save_path doesn't exist, and it saves a dictionary into the data folder as a json format.
+        If the save_path provided exists, then it will read the JSON file.
         """
         if not (os.path.exists(self.save_path)):
             response = self.client.process_document(self.docs_to_process)
@@ -33,7 +38,10 @@ class ClientHandler(Client):
             return response
         else:
             print('\033[93mJSON file already exists\033[0m\n')
-            return self.read_json_file()
+            try:
+                return self.read_json_file()
+            except FileNotFoundError:
+                print(f'The file {self.save_path} couldn\'t be read')
 
     def read_json_file(self) -> dict:
         with open(self.save_path, 'r') as _f:
