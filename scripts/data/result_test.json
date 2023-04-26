@@ -1,0 +1,57 @@
+[
+    {
+        "vendor_raw_name": "\nF.C. BOX 10380\nAMERICAN\tSTAMFORD CONNECTICUT (6904-2007\t\tTHIS ORDER IS SUBJECT TO ACCEPTANCE EXPRESSLY\n\tLIMITED TO THE PROVISIONS ON THE FACE AND\nTOBACCO\t\t\t\t\tREVERSE SIDE AND TO THOSE APPENDED HERETO\nCOMPANY",
+        "vendor_name": "American Tobacco Company",
+        "ship_to_address": "S, H THE FULFILLMENT HOUSE, 7 Midland Avenue, P\tHicksville NY\t11801",
+        "ship_to_name": "\t\tATTN: Mr. Bob Pollack",
+        "line_items": [
+            {
+                "price": "$1.45 each"
+            }
+        ]
+    },
+    {
+        "vendor_raw_name": "\nAMERICAN\tPO BOX 103853\nD CONNECTICUT-230\t\tTHIS ORDER IS SUBJECT TO ACCEPTANCE EXPRESSLY\nTOBACCO\t\t\t\t\tUMITED TO THE PROVISIONS ON THE FACE AND\n\tREVERSE SIDE AND TO THOSE APPENDED HERE TO.\nCOMPANY",
+        "vendor_name": "American Tobacco Company",
+        "ship_to_address": "Balance To Be Held In Inventory",
+        "ship_to_name": "",
+        "line_items": [
+            {
+                "quantity": "540",
+                "price": "$5.25 each",
+                "description": "CARLTON Two-Sheet Station Posters\t\t$5.25 each\n46\" x 60\"\nPosters are printed 2 colors (red, black)\non 70# coated outdoor stock.\nCOPY FOR IDENTIFICATION:\n\"Today, If You Smoke Please Try CARLTON\"\nWarning Statement \"D\" to read: SURGEON\nGENERAL'S WARNING: Cigarette smoke\ncontains Carbon Monoxide.\nPacking: Material to be kraft wrapped.\nOverruns to be held blank.\n\n\tContinued on next page\n\nACCOUNTING"
+            }
+        ]
+    },
+    {
+        "vendor_raw_name": "\nP.O. BOX 10350\nAMERICAN\tSTAMFORD CONNECTICUT 06904-2350\t\tTHIS ORDER IS SUBJECT TO ACCEPTANCE EXPRESSLY\nTOBACCO\t\t\t\t\tLIMITED TO THE PROVISIONS ON THE FACE AND\n\tREVERSE SIDE AND TO THOSE APPENDED HERE TO.\nCOMPANY",
+        "vendor_name": "American Tobacco Company",
+        "ship_to_address": "AS PER ATTACHED INSTRUCTIONS, Balance To Be Held In Inventory",
+        "ship_to_name": "",
+        "line_items": [
+            {
+                "quantity": "400",
+                "price": "$17.97 each",
+                "description": "CARLTON King Size Bus Posters\t-\t29\" x 144\"\t$17.97 each\nCOPY FOR IDENTIFICATION\n\"Today, If You Smoke Please Try CARLTON\"\nWarning Statement \"p\" - SURGEON GENERAL'S\nWARNING: CIGARETTE SMOKE CONTAINS CARBON\nMONOXIDE.\nPosters are screened 2 colors (red, black)\nplus clear coating on 4 mil. removable\npressure sensitive vinyl.\nPacking: Material to be kraft wrapped.\nOverruns or underruns not to exceed 5%.\nOverruns beyond 5% will not be paid for.\n\nContinued on next page\n\nACCOUNTING"
+            }
+        ]
+    },
+    {
+        "vendor_raw_name": "\nP.O. BOX 10380\nAMERICAN\tSTAMFORD CONNECTICUT 06904-2380\nTOBACCO\t\t\t\t\t\t\tCOPY V. Puleo\nCOMPANY",
+        "vendor_name": "American Tobacco Company",
+        "ship_to_address": "Per Shipping Instructions, Attached",
+        "ship_to_name": "",
+        "line_items": [
+            {
+                "quantity": "750",
+                "price": "$57.45 ea",
+                "description": "MALIBU King Size Bulletina, 14 x 40\"\t\t$57.45 ea\n\tAdditional Separation Charge\t$1,200.00\n380k.\nBulletins lithographed five colors (4-color\nprocess plus one PMS yellow) on 70# outdoor\n"
+            },
+            {
+                "quantity": "788",
+                "price": "$1,200.00",
+                "description": "poster papex. Caption for identification:\n\"Move to MALIDU NEW KING SIXBI $3.00 off &\nCartos.\"\nYuth # SMOKING CAUSES LUNG CANCER, HEART DISEASE AND\n23 Bulletins to be printed with Warning \"A\":\nClosed\tEMPHYSENA. Bulletins are scheduled for December\n1 posting in Peoria and Spokane.\nBalance of material to be held blank for the\nprinting of future warning statements and our\nfmg\tdisposition.\nOverruns or underruns not to exceed 58.\nOverrons beyond 5t will not be paid for.\n\tContinued on next page.\n\nACCOUNTING"
+            }
+        ]
+    }
+]

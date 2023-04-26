@@ -31,11 +31,11 @@ Create a **_.env_** file within the **scripts** folder with the corresponding VA
   - [x] Breaking down the requirements.
   - [x] Modeling the objects to make use of (UML).
 - [ ] Creating the obj to get all data needed:
-  - [ ] vendor_name
+  - [x] vendor_name
   - [ ] bill_to_address
-  - [ ] ship_to_name
-  - [ ] ship_to_address
-  - [ ] line_items [dict]
+  - [x] ship_to_name
+  - [x] ship_to_address
+  - [x] line_items [dict]
     - Quantity
     - Description
     - Price
