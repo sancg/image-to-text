@@ -25,6 +25,9 @@ Create a **_.env_** file within the **scripts** folder with the corresponding VA
 - USERNAME
 - API_KEY
 
+## To start the project
+From the root directory type in terminal: `python .\scripts\main.py`
+
 ## Stage 🌱
 
 - [x] Exploration phase
